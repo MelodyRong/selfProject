@@ -25,13 +25,25 @@ npm run e2e
 
 # run all tests
 npm test
+
+# 项目中已配置echart，vant，postcss，less，
+如需其他依赖请自行安装，并更新markdown文件以及告知相关合作人员
 ```
 ```
+1.echart图表组件
+<bar-chart :xData="xData" :yData="yData" :width="barWidth" :height="barHeight" :type="chartType"></bar-chart>
+    textTitle：图标标题
+    xData：横坐标数据
+    yData：纵坐标数据
+    width：柱状图宽度
+    height：柱状图高度
+    tooltipData：鼠标经过展示的内容
+    type:图标类型
+
+2.
 1.安装axios及配置
 10.vueroute路由拦截
 2.vuex缓存
-14.postcss
-9.echarts运用(引用不渲染问题)
 4.接口转发
 6.组件运用
 7.搭建一个vue—elementUI的管理后台项目

@@ -1,5 +1,6 @@
 export  function headerInfo() {
-  return {
+  let headerInfo = {
 
   }
+  return headerInfo
 }
